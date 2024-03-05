@@ -11,7 +11,7 @@ import seaborn as sns
 import streamlit as st
 
 # Mengambil data dari file csv
-df = pd.read_csv('main.csv')
+df = pd.read_csv('dashboard/main.csv')
 
 # Init streamlit app
 st.title('Dashboard Analisis Data Bike Sharing')
